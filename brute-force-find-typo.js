@@ -5,7 +5,7 @@
  * Usage:
  * 
  * npm i
- * node check-prv.js 5Jhacv9gEyp7yosCeq1zgRRQSitGZZ3Z2NbgKG9BFXHW16iYU4z
+ * node brute-force-find-typo.js 5Jhacv9gEyp7yosCeq1zgRRQSitGZZ3Z2NbgKG9BFXHW16iYU4z
  */
 
 const bitcoin = require('bitcoinjs-lib')
@@ -38,7 +38,7 @@ for (let index = 1; index < keyWithTypo.length; index++) {
             // The following line with throw an error if the modifiedKey has an invalid checksum.
             const keypair = bitcoin.ECPair.fromWIF(modifiedKey)
             // If we get this far, then we've found a key with a valid checksum, so we print it out.
-            console.log(`\nFound valid private key: ${modifiedKey}`)
+            console.log(`\nFound valid WIF private key: ${modifiedKey}`)
             console.log(`by replacing '${keyWithTypo[index]}' with '${character}' at position ${index}`)
             const addressObject = bitcoin.payments.p2pkh({ pubkey: keypair.publicKey })
             console.log(`Address: ${addressObject.address}\n`)
