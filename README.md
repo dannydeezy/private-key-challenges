@@ -19,3 +19,5 @@ Usage:
 ```
 node check-prv.js 5Jhacv9gEyp7yosCeq1zgRRQSitGZZ3Z2NbgKG9BFXHW16iYU4z
 ```
+
+Once you find the valid WIF private key, you can [import it into a wallet like Electrum](https://bitcoinelectrum.com/importing-your-private-keys-into-electrum/#:~:text=Just%20select%20%E2%80%9CImport%20bitcoin%20addresses,Wallet%20Import%20Format%20(WIF).)
