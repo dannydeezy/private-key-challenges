@@ -27,6 +27,8 @@ node brute-force-find-typo.js 5Jhacv9gEyp7yosCeq1zgRRQSitGZZ3Z2NbgKG9BFXHW16iYU4
 
 Once you find the valid WIF private key, you can [import it into a wallet like Electrum](https://bitcoinelectrum.com/importing-your-private-keys-into-electrum/#:~:text=Just%20select%20%E2%80%9CImport%20bitcoin%20addresses,Wallet%20Import%20Format%20(WIF).)
 
+Roughly an hour after the post, victory was claimed by [@aguysomewhere2](https://twitter.com/aguysomewhere2/status/1344920929344872448?s=20) and the funds were moved on chain! Congrats!
+
 ### Resources:
 - [Base58Check Encoding](https://en.bitcoin.it/wiki/Base58Check_encoding)
 - [Wallet Import Format (WIF)](https://en.bitcoin.it/wiki/Wallet_import_format)
