@@ -7,7 +7,7 @@ Requires [NodeJS](https://nodejs.org/en/)
 
 Open your terminal and enter the following:
 ```
-https://github.com/dannydeezy/private-key-challenges.git
+git clone https://github.com/dannydeezy/private-key-challenges.git
 cd private-key-challenges
 npm i
 ```
