@@ -4,6 +4,7 @@ Follow [@dannydiekroeger](https://twitter.com/dannydiekroeger) on twitter to get
 
 #### Installation
 Requires [NodeJS](https://nodejs.org/en/)
+
 Open your terminal and enter the following:
 ```
 https://github.com/dannydeezy/private-key-challenges.git
