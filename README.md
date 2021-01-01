@@ -2,7 +2,7 @@
 
 Follow [@dannydiekroeger](https://twitter.com/dannydiekroeger) on twitter to get notified about the next challenge
 
-#### Installation
+### Installation
 Requires [NodeJS](https://nodejs.org/en/)
 
 Open your terminal and enter the following:
@@ -12,7 +12,7 @@ cd private-key-challenges
 npm i
 ```
 
-### Challenge 1:
+### Challenge 1 Solution:
 [Find typo in private key](https://twitter.com/dannydiekroeger/status/1344898855997825035?s=20)
 
 The `check-prv.js` script will brute force check every character and try replacing it with
