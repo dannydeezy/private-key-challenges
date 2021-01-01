@@ -3,7 +3,10 @@
 Follow [@dannydiekroeger](https://twitter.com/dannydiekroeger) on twitter to get notified about the next challenge
 
 #### Installation
+Open your terminal and enter the following:
 ```
+https://github.com/dannydeezy/private-key-challenges.git
+cd private-key-challenges
 npm i
 ```
 
